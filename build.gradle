@@ -31,5 +31,10 @@ dependencies {
 
 test {
     useJUnitPlatform()
-    systemProperty 'cucumber.junit-platform.naming-strategy', 'long'
+
+    testLogging {
+        events 'passed', 'failed', 'skipped'
+        exceptionFormat 'short'
+        showStandardStreams = true
+    }
 }

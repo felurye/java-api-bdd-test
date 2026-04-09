@@ -4,13 +4,13 @@ Breve descrição do conceito abordado nesta nota (1-2 frases).
 
 ### Conceito Principal
 
-* Ponto importante
-* Ponto importante
+- Ponto importante
+- Ponto importante
 
 ### Sub-tópico
 
-* Detalhe
-* Detalhe
+- Detalhe
+- Detalhe
 
 ### Exemplos (se aplicável)
 
@@ -27,5 +27,8 @@ Funcionalidade: ...
 
 > "Citação relevante." - Autor
 
+<br>
+
 ---
+
 <p align="center"><i>Notas baseadas no curso de <a href="https://www.youtube.com/playlist?list=PLhJTa4U57yUuoZLHqiXXR97sMfy_Ia_3Q">BDD com Java do QAOps.</a></i></p>

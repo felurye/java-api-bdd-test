@@ -6,6 +6,7 @@ Referência rápida dos principais termos e conceitos utilizados neste projeto.
 
 Desenvolvimento Orientado por Comportamento. Metodologia de colaboração que aproxima negócio e tecnologia por meio de exemplos concretos escritos em linguagem natural. Não é uma ferramenta - é um processo.
 
+- [Testes de API - Estratégias e Tipos](./notes/0-testes-de-api.md)
 - [O que é BDD](./1-o-que-e-bdd.md)
 - [BDD Vale ou Não a Pena?](./2-bdd-vale-ou-nao-a-pena.md)
 - [Especificação por Exemplo](3-especificacao-por-exemplo.md)

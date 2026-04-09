@@ -54,7 +54,14 @@ git clone https://github.com/felurye/java-api-bdd-test.git
 ### Execute os testes
 
 ```bash
+# Executar todos os testes
 gradle test
+
+# Executar um cenário específico por tag (após adicionar @tags nas features)
+gradle test -Dcucumber.filter.tags="@nome-da-tag"
+
+# Limpar build anterior
+gradle clean test
 ```
 
 ## 📚 Material de Apoio
@@ -68,6 +75,7 @@ Este projeto foi desenvolvido com base no conteúdo complementar:
 A pasta [`notes/`](./notes/) contém anotações de estudo e um glossário com os principais conceitos do projeto:
 
 - [Glossário](./notes/README.md) - Termos e conceitos de referência rápida
+- [Testes de API - Estratégias e Tipos](./notes/0-testes-de-api.md)
 - [O que é BDD](./notes/1-o-que-e-bdd.md)
 - [BDD Vale ou Não a Pena?](./notes/2-bdd-vale-ou-nao-a-pena.md)
 - [Especificação por Exemplo](./notes/3-especificacao-por-exemplo.md)
