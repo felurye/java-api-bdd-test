@@ -7,7 +7,7 @@
 4. Pode ser usado para novos integrantes entenderem o sistema
 5. Flexibilidade
 
-### Desvantagem
+### Desvantagens
 1. Como são testes funcionais, podem falhar aleatoriamente (flake)
 2. As features podem demorar demais para rodar
 3. O pessoal do negócio pode não ler os cenários
@@ -21,7 +21,7 @@ Quando há um time unificado:
 * QA normalmente faz validação e testes funcionais
 * Quando há gargalos (QA ajudam DEVs e DEVs ajudam QA)
 * O nível de comunicação e colaboração é muito grande 
-* QUando os cenários é usado como documentação viva
+* Quando os cenários são usados como documentação viva
 * Os testes fazem parte da estrategia de integração contínua CI.
 * Time unico com cultura devops:
     * Todo mundo faz tudo, cada pessoa compartilha o seu conhecimento mais profundo
@@ -35,8 +35,8 @@ Quando há um time unificado:
     * Equipe de QA de escrita de cenários e testes manuais
 * Usado nos testes funcionais de UI
 * Processo "BDD"
-    * QA Manual + Analista de Negócio escrevem os cénarios
+    * QA Manual + Analista de Negócio escrevem os cenários
     * Equipe de Automação automatiza
 
-_______________
-<p align="center"><i>Notas baseadas no curso de <a href="https://www.youtube.com/playlist?list=PLhJTa4U57yUuoZLHqiXXR97sMfy_Ia_3Q">BDD com Java do QAOps.</i></p>
+---
+<p align="center"><i>Notas baseadas no curso de <a href="https://www.youtube.com/playlist?list=PLhJTa4U57yUuoZLHqiXXR97sMfy_Ia_3Q">BDD com Java do QAOps.</a></i></p>

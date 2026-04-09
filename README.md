@@ -62,3 +62,12 @@ gradle test
 Este projeto foi desenvolvido com base no conteúdo complementar:
 
 - [Curso do QAOps - BDD com Java](https://www.youtube.com/playlist?list=PLhJTa4U57yUuoZLHqiXXR97sMfy_Ia_3Q)
+
+## 🗂 Aprofundamento
+
+A pasta [`notes/`](./notes/) contém anotações de estudo e um glossário com os principais conceitos do projeto:
+
+- [Glossário](./notes/README.md) - Termos e conceitos de referência rápida
+- [O que é BDD](./notes/1-o-que-e-bdd.md)
+- [BDD Vale ou Não a Pena?](./notes/2-bdd-vale-ou-nao-a-pena.md)
+- [Especificação por Exemplo](./notes/3-especificacao-por-exemplo.md)
