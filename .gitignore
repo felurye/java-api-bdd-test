@@ -1,14 +1,82 @@
-out
-.classpath
-.project
-.settings
-.metadata
-*.log
-*.zip
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+out/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring wrapper jar
+!gradle-wrapper.jar
+
+# Ignore local Gradle config
+.gradle-task-name-cache
+
+# =========================
+# Java / JVM
+# =========================
 *.class
-*.swp
-target
-classes
-build
-bin
-classes
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# =========================
+# IntelliJ / JetBrains
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# Eclipse
+# =========================
+.project
+.classpath
+.settings/
+bin/
+
+# =========================
+# VSCode
+# =========================
+.vscode/
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# Mac / Linux / Windows
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+application-local.yml
+application-local.properties
+
+
+# =========================
+# Output / Reports
+# =========================
+allure-results/
+allure-report/
+.claude/
