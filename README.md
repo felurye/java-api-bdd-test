@@ -54,7 +54,7 @@ git clone https://github.com/felurye/java-api-bdd-test.git
 ### Execute os testes
 
 ```bash
-./gradlew test
+gradle test
 ```
 
 ## 📚 Material de Apoio
