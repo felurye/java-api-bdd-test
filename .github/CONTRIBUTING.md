@@ -13,13 +13,13 @@
    - `fix/descricao-do-bug`
    - `docs/descricao-da-mudanca`
 3. Faça suas alterações
-4. Execute os testes e garanta que todos passam: `gradle test`
+4. Execute os testes e garanta que todos passam: `./gradlew test`
 5. Abra um Pull Request para `main`
 
 ## Adicionando novos testes
 
 1. Escreva o cenário em `src/test/resources/features/<recurso>.feature` antes do código
-2. Crie a step definition em `src/test/java/org/httpbin/steps/<Recurso>Steps.java`
+2. Crie a step definition em `src/test/java/dev/serverest/steps/<Recurso>Steps.java`
 3. Novos steps são descobertos automaticamente - não é necessário alterar o runner
 
 Ao nomear métodos nas step definitions, use **inglês e camelCase** (`sendPostRequest`, `validateResponseBody`). O texto da anotação Cucumber é o contrato com o Gherkin.
@@ -30,7 +30,7 @@ Use o template em [`.github/note-template.md`](./note-template.md) e adicione o 
 
 ## Padrões de código
 
-- Pacotes em minúsculo (`org.httpbin.steps`, não `org.httpbin.Steps`)
+- Pacotes em minúsculo (`dev.serverest.steps`, não `dev.serverest.Steps`)
 - URL base sempre via `config.properties`, nunca hardcoded
 - Um arquivo `.feature` por recurso de API
 

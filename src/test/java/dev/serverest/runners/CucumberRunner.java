@@ -1,4 +1,4 @@
-package org.httpbin.runners;
+package dev.serverest.runners;
 
 import org.junit.platform.suite.api.IncludeEngines;
 import org.junit.platform.suite.api.SelectClasspathResource;
