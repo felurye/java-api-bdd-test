@@ -75,4 +75,4 @@ O `CucumberRunner` declara apenas o engine e o classpath das features. Não deve
 
 ## Notas de estudo
 
-`notes/` contém anotações sobre BDD e as ferramentas do projeto. Ao criar novos arquivos `.md` nessa pasta, usar o template em `.github/note-template.md`. O índice das notas está em `notes/README.md`.
+`notes/` contém anotações sobre BDD e as ferramentas do projeto. Ao criar novos arquivos `.md` nessa pasta, usar o template em `.github/NOTE_TEMPLATE.md`. O índice das notas está em `notes/README.md`.
